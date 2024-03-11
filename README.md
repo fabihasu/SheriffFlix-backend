@@ -13,6 +13,9 @@ Este proyecto consta de dos partes, un frontend y un backend.
   `git clone https://github.com/fabihasu/SheriffFlix-backend`
 - Instalar dependencias:
   `npm install`
+- Renombrar `.env.example` por `.env` (quitar .example del nombre del archivo)
+- En el archivo `.env` reemplazar los valores de los campos `TMDB_API_KEY` y `DATABASE_URL` por los valores enviados por correo.
+
 - Levantar proyecto: `npm start`
 
 ## Levantar frontend
